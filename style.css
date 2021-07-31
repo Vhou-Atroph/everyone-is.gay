@@ -9,3 +9,9 @@
 .home {
   background-color: #ededed;
 }
+.translink {
+  font-size: 20;
+  background: -webkit-linear-gradient(#55CDFC, #F7A8B8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
