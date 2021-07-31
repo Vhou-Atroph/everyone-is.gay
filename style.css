@@ -1,9 +1,3 @@
-h1 {
-  color: purple;
-}
-p {
-  color: purple;
-}
 .unselectable {
   user-drag: none; 
   user-select: none;
