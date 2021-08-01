@@ -1,8 +1,3 @@
-.css_center{ /*mobile devices dont center certain things properly, maybe this will fix it?*/
-  display: block;
-  float: none;
-}
-
 .home {
   background-color: #ededed;
 }
