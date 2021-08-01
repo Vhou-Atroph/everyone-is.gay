@@ -1,6 +1,6 @@
 .css_center{ /*mobile devices dont center certain things properly, maybe this will fix it?*/
   display: block;
-  margin: right;
+  float: none;
 }
 
 .home {
