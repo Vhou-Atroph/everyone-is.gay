@@ -1,3 +1,27 @@
+.home {
+  background-color: #ededed;
+}
+
+.transhomebtn {
+  border: 4px solid;
+  border-image: linear-gradient(#55CDFC, #F7A8B8) 10;  /*trans colors gradient for borders*/
+}
+
+.translink {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#55CDFC, #F7A8B8); /*trans colors gradient*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txt1 {
+  font-family: Arial, Helvetica, sans-seif;
+}
+
+.txt2 {
+  font-family: Georgia, Arial, sans-serif;
+}
+
 .unselectable {
   user-drag: none; 
   user-select: none;
@@ -5,17 +29,4 @@
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-.home {
-  background-color: #ededed;
-}
-.translink {
-  font-size: 30px;
-  background: -webkit-linear-gradient(#55CDFC, #F7A8B8); /*trans colors gradient*/
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.transhomebtn {
-  border: 4px solid;
-  border-image: linear-gradient(#55CDFC, #F7A8B8) 10;  /*trans colors gradient for borders*/
 }
