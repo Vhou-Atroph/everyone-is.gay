@@ -1,32 +1,36 @@
-.home {
+.br-foot { /*The bottom right footer at index.html.*/
+  font-size: 10px;
+  color: #9C9C9C;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+}
+
+.home { /*The body at index.html has this class in its body.*/
   background-color: #ededed;
 }
 
-.transhomebtn {
+.transborders { /*trans colors gradient for borders*/
   border: 4px solid;
-  border-image: linear-gradient(#55CDFC, #F7A8B8) 10;  /*trans colors gradient for borders*/
+  border-image: linear-gradient(#55CDFC, #F7A8B8) 10;
 }
 
-.translink {
+.transtxt { /*trans colors text gradient for various links*/
   font-size: 30px;
-  background: -webkit-linear-gradient(#55CDFC, #F7A8B8); /*trans colors gradient*/
+  font-family: Georgia, Arial, sans-serif;
+  background: -webkit-linear-gradient(#55CDFC, #F7A8B8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.txt1 {
+#txt1 { /*ID for a selection of text at index.html*/
   font-family: Arial, Helvetica, sans-seif;
 }
 
-.txt2 {
-  font-family: Georgia, Arial, sans-serif;
-}
-
-.unselectable {
-  user-drag: none; 
+.unselectable { /*Images with this class cannot be dragged.*/
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
 }
