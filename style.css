@@ -1,3 +1,8 @@
+.css_center{ /*mobile devices dont center certain things properly, maybe this will fix it?*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .home {
   background-color: #ededed;
 }
