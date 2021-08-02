@@ -1,7 +1,8 @@
 ---
-permalink: /and/trans/
+permalink: /gayzone/
 ---
-<!-- The YAML above sets it so that going to http://www.everyone-is.gay/and/trans/ would take you to the page here. -->
+<!-- The YAML above sets it so that going to http://www.everyone-is.gay/gayzone/ would take you to the page here. -->
+<!-- For anyone looking for cool comment trivia, I'm using this page to test out custom themes on pages. -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,19 +16,26 @@ permalink: /and/trans/
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/style.css"> <!-- / is necessary here because otherwise the website would look for style.css at ./and/trans/ instead of in the root. This also goes for all other files referenced here.-->
-	<meta name="description" content="Everyone is both trans and gay!">
+    <link rel="stylesheet" href="/style-2.css"> <!-- / is necessary here because otherwise the website would look for style.css at ./gayzone/ instead of in the root. This also goes for all other files referenced here.-->
+	<meta name="description" content="The Gay Zone!">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta name="keywords" content="gay, everyone is gay, trans, everyone is trans and gay, everyone is gay and trans, lgbt, lgbtq">
   </head>
   <body> <!-- The entire body of the page begins here. -->
-  
-    <center>
-      <a href="/" class= "transborders transtxt">Home</a>
-	  <br><br>
 	
-      <img src=/img/fliptransandgay.png class="unselectable" width="60%" alt="Flippy from Disney's Toontown Online proudly saying 'I am trans and gay!'">
-    </center>
-  
+	<center><img src=/img/gayzone-header.png class="header"></center>
+	
+	<div id="navbar"><ul>
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/gayzone" class="active">Gay Zone</a></li>
+	  <li><a href="/and/trans/" class="transtxt">Flippy</a></li>
+	</ul></div>
+	
+	<div id="left1-text">
+	  <h2">Welcome to the Gay Zone!</h2>
+	  <p>You have entered the Gay Zone.</p>
+	  <center><p style="font-size:30px">🏳️‍🌈</p></center>
+	</div>
+	
   </body>
 </html>
