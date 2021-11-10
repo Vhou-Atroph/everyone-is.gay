@@ -22,6 +22,7 @@
   background: -webkit-linear-gradient(#55CDFC, #F7A8B8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
 
 #txt1 { /*ID for a selection of text at index.html*/
