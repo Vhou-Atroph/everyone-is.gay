@@ -18,7 +18,7 @@
 
 .transtxt { /*trans colors text gradient for various links*/
   font-size: 30px;
-  font-family: Georgia, Arial, sans-serif;
+  font-family: "Impress BT", Georgia, Arial, sans-serif;
   background: -webkit-linear-gradient(#55CDFC, #F7A8B8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
